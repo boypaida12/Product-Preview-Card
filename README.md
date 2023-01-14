@@ -22,7 +22,7 @@ The challenge is to build out this product preview card component and get it loo
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site URL](https://boypaida-productpreviewcard.onrender.com/)
 
 ### Built with
 
