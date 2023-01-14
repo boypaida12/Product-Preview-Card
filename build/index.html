@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <title>Frontend Mentor | Product preview card component</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .attribution {
+        font-size: 11px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="flex min-h-screen flex-col justify-center bg-cream-200 p-5 font-sans"
+  >
+    <main class="flex flex-col sm:mx-auto sm:flex-row sm:p-5 lg:w-3/5">
+      <div class="sm:w-1/2">
+        <img
+          class="rounded-t-xl sm:hidden"
+          src="images/image-product-mobile.jpg"
+          alt="chanel perfume-mobile"
+        />
+        <img
+          class="hidden rounded-l-xl sm:block sm:h-full"
+          src="images/image-product-desktop.jpg"
+          alt="chanel perfume-desktop"
+        />
+      </div>
+
+      <div
+        class="rounded-b-xl bg-white p-5 sm:w-1/2 sm:rounded-r-xl sm:rounded-bl-none sm:p-8"
+      >
+        <h1 class="text-xs uppercase tracking-widest text-slate-500 xl:text-lg">
+          P e r f u m e
+        </h1>
+        <p class="pt-5 font-serif text-3xl xl:text-5xl">
+          Gabrielle Essence Eau De Parfum
+        </p>
+        <p
+          class="pt-5 text-sm leading-6 text-slate-400 sm:text-base xl:text-xl"
+        >
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="mt-10 flex">
+          <p class="font-serif text-3xl text-teal-750 sm:text-4xl xl:text-5xl">
+            $149.99
+          </p>
+          <p
+            class="ml-5 self-center text-sm text-slate-400 line-through sm:text-base xl:text-lg"
+          >
+            $169.99
+          </p>
+        </div>
+        <div class="mt-10 gap-3 rounded-lg bg-teal-750 p-3 sm:p-4 xl:p-5">
+          <div class="mx-auto flex w-fit gap-3 text-white">
+            <img
+              class="h-5 w-5 xl:h-7 xl:w-7"
+              src="images/icon-cart.svg"
+              alt="cart icon"
+            />
+            <p class="text-md xl:text-xl">Add to Cart</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution mx-auto w-fit">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">boypaida</a>.
+      </div>
+    </footer>
+  </body>
+</html>
